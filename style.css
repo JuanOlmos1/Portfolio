@@ -1,0 +1,194 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.active{
+    background-color: black !important;
+}
+
+/*Global*/
+.container{
+    width: 80%;
+    margin:auto;
+    overflow:hidden;
+}
+
+header ul{
+    margin: 0;
+    padding: 0;
+    float: right;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+
+header #logo{
+    float: left;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    margin-top: -10px;
+}
+
+
+/*Header*/
+header{
+    background: rgb(21, 99, 136);
+    color: white;
+    padding-top:30px;
+    min-height:70px;
+    /*^ Adjusts Height*/
+    text-align: right;
+    border-bottom: #1a4085 3px solid;
+}
+
+header a{
+    color: #f4f4f4;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    background-color:rgb(29, 72, 112);
+    padding: 15px 15px;
+}
+
+header a:hover{
+    z-index: 2;
+    background-color: rgb(76, 81, 85);
+
+}
+
+header li{
+    display:inline;
+    padding: 0 20px 0 20px;
+}
+
+
+/*Center Picture of Home and HOME PAGE*/
+#center_pic{
+    min-height: 500px;
+    background:url("images/blue-polygon-background.jpg") no-repeat 0 -400px;
+    text-align: center;
+    color: #f4f4f4;
+}
+
+#center_pic h1{
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+#center_pic p{
+    font-size: 20px;
+    text-align: center;
+}
+
+#center_pic ul{
+    display: inline-block;
+    list-style: none;
+}
+
+#center_pic li{
+    font-size:20px;
+    text-align: center;
+    padding: 10px 0 10px 0;
+}
+
+.home_links a{
+    color: #f4f4f4;
+    text-decoration: none;
+    font-size: 16px;
+    background-color:rgb(29, 72, 112);
+    padding: 15px;
+}
+
+.home_links a:hover{
+    z-index: 2;
+    background-color: rgb(76, 81, 85);
+}
+
+/* ABOUT ME PAGE*/
+#about_me{
+    min-height: 400px;
+    background:url("images/blue-polygon-bg.jpg");
+    text-align: center;
+    color: #f4f4f4;
+}
+
+#about_me h1{
+    margin-top: 50px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+#about_me p{
+    font-size:20px;
+}
+
+.boxes{
+    text-align: center;
+    color: #f4f4f4;
+}
+
+/*My face and words in it*/
+.imgcontent_1{
+    background: #092e72;
+    padding: 12px;
+}
+
+.imgcontent_1 img{
+    border-radius: 20px;
+}
+
+.imgcontent_2{
+    background: #092e72;
+    padding: 12px;
+}
+
+.imgcontent_2 img{
+    border-radius: 20px;
+}
+
+
+
+
+
+
+/*INTERNSHIP PAGE*/
+
+#intern{
+    min-height: 200px;
+    background:url("images/131220-dark-blue-polygon-background.jpg") no-repeat 0 -400px;
+    text-align: center;
+    color: #f4f4f4;
+}
+
+#intern h1{
+    margin-top: 50px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+#intern .final{
+    font-size:20px;
+    background-color: #091d42;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    box-sizing: border-box;
+    padding:15px;
+
+}
+
+
+
+
+/*Footer*/
+footer{
+    padding: 20px;
+    color: #f4f4f4;
+    background-color: #1a4085;
+    text-align: center;
+}
